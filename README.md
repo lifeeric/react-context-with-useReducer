@@ -37,7 +37,7 @@ export const initialState = {
 };
 
 export const reducer = (state = initialState, action: any) => {
-  switch (action.Types) {
+  switch (action.type) {
     case actionTypes.SET_USER:
       return {
         ...state,
@@ -51,7 +51,7 @@ export const reducer = (state = initialState, action: any) => {
 ### 3 - Import
 `index.tsx`
 
-```ts
+```tsx
 <React.StrictMode>
   <StateProvider>
     <App />
