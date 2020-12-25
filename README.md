@@ -51,7 +51,7 @@ export const reducer = (state = initialState, action: any) => {
 ### 3 - Import
 `index.tsx`
 
-```tsx
+```jsx
 <React.StrictMode>
   <StateProvider>
     <App />
